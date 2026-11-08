@@ -1,0 +1,13 @@
+{
+  "initial_nodes": 3,
+  "new_pending_approved": true,
+  "credential_after_approval": true,
+  "fourth_card_without_web_rebuild": true,
+  "teacher_console": true,
+  "profile_theme_and_pagination": true,
+  "rotation": true,
+  "mobile_layout": true,
+  "room_label_escaped": true,
+  "page_errors": [],
+  "broker_account_helper": "simulated_demo_only"
+}

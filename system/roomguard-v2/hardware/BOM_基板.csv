@@ -1,0 +1,59 @@
+﻿位号,器件或参数,数量,封装,功能分区,核验说明
+J1,5V INPUT 1=+5V 2=GND,1,TerminalBlock:TerminalBlock_bornier-2_P5.08mm,power,Regulated5V only; no12V
+F1,PTC hold1.1A / trip2.2A,1,Fuse:Fuse_1206_3216Metric,power,Verify peak current and thermal derating
+Q1,AO3401A reverse-polarity,1,Package_TO_SOT_SMD:SOT-23,power,Pin1G 2S 3D; verify exact part
+R1,100k,1,Resistor_SMD:R_0805_2012Metric,power,
+SW1,POWER SWITCH,1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,power,External switch header; do not bridge with metal while powered
+C1,100uF/10V,1,Capacitor_SMD:C_0805_2012Metric,power,
+C2,10uF,1,Capacitor_SMD:C_0805_2012Metric,power,
+C3,100nF,1,Capacitor_SMD:C_0805_2012Metric,power,
+U1,AP2112K-3.3,1,Package_TO_SOT_SMD:SOT-23-5,power,600mA maximum datasheet rating; design sensor load<=100mA pending measurement
+C4,1uF,1,Capacitor_SMD:C_0805_2012Metric,power,
+C5,1uF,1,Capacitor_SMD:C_0805_2012Metric,power,
+C6,10uF,1,Capacitor_SMD:C_0805_2012Metric,power,
+JP1,SELECT ESP VREF (32:1-2 / 8266:2-3),1,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,power,One shunt only. Never bridge external LDO to ESP3V3
+JP2,ESP32 VIN ENABLE,1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,power,Install only for selected board
+JP3,ESP8266 VIN ENABLE,1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,power,Install only for selected board
+U2,MCP6002-I/P unity buffer,1,Package_DIP:DIP-8_W7.62mm,analog,"Unused amplifier B is a ground follower, not floating"
+C7,100nF,1,Capacitor_SMD:C_0805_2012Metric,analog,
+R2,20k 1%,1,Resistor_SMD:R_0805_2012Metric,analog,
+R3,10k 1%,1,Resistor_SMD:R_0805_2012Metric,analog,
+R4,1k,1,Resistor_SMD:R_0805_2012Metric,analog,
+C8,10nF,1,Capacitor_SMD:C_0805_2012Metric,analog,
+R5,56k 1%,1,Resistor_SMD:R_0805_2012Metric,analog,
+R6,10k 1%,1,Resistor_SMD:R_0805_2012Metric,analog,
+R7,1k,1,Resistor_SMD:R_0805_2012Metric,analog,
+C9,10nF,1,Capacitor_SMD:C_0805_2012Metric,analog,
+U3,SN74LVC2G17DCKR,1,Package_TO_SOT_SMD:SOT-363_SC-70-6,logic,5.5V tolerant inputs and Ioff; do not replace with non5V-tolerant HC buffer
+C10,100nF,1,Capacitor_SMD:C_0805_2012Metric,logic,
+R8,1k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R9,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R10,1k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R11,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+Q2,BSS138 DHT bidirectional,1,Package_TO_SOT_SMD:SOT-23,logic,Gate ESP VREF; source MCU; drain sensor. No inversion
+R12,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R13,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+Q3,BSS138 buzzer low-active,1,Package_TO_SOT_SMD:SOT-23,logic,"Module input load must be verified; MCU HIGH=off, LOW=on"
+R14,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R15,10k,1,Resistor_SMD:R_0805_2012Metric,logic,
+R16,330,1,Resistor_SMD:R_0805_2012Metric,logic,
+R17,330,1,Resistor_SMD:R_0805_2012Metric,logic,
+R18,330,1,Resistor_SMD:R_0805_2012Metric,logic,
+J2,DHT11 SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,modules,J_DHT; Reference order DATA VCC GND; physical dimensions pending
+J3,MQ2 SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,modules,J_MQ; Reference order AO DO GND VCC; verify actual module
+J4,FLAME SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,modules,J_FLAME; Reference order VCC GND DO; verify actual module
+J5,BUZZER SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,modules,J_BUZZ; Reference order GND IO VCC; verify actual module
+J6,RGB COMMON CATHODE,1,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,modules,J_RGB; Reference order GND B G R; verify actual module
+J7,J32L 15pin SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,sockets,J32L; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board
+J8,J32R 15pin SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,sockets,J32R; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board
+J9,J8266L 15pin SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,sockets,J8266L; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board
+J10,J8266R 15pin SOCKET,1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,sockets,J8266R; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board
+TP1,P5V,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP2,SENSOR_3V3,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP3,ESP_3V3,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP4,MQ_AO,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP5,ADC32,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP6,ADC8266,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP7,SMOKE_MCU,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP8,FLAME_MCU,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,
+TP9,GND,1,TestPoint:TestPoint_Pad_D2.0mm,testpoints,

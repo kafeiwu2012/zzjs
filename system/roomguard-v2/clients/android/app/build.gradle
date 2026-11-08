@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cn.roomguard'
+    compileSdk 35
+    defaultConfig { applicationId 'cn.roomguard'; minSdk 22; targetSdk 28; versionCode 3; versionName '2.0' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+    buildTypes { release { minifyEnabled false } }
+}

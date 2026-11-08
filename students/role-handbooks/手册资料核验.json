@@ -1,0 +1,22 @@
+{
+  "参赛学生A_系统操作学习手册_V2.pdf": {
+    "pages": 9,
+    "text_overflow": false
+  },
+  "参赛学生B_展示演讲学习手册_V2.pdf": {
+    "pages": 13,
+    "text_overflow": false
+  },
+  "双人比赛配合随身卡_V2.pdf": {
+    "pages": 2,
+    "text_overflow": false
+  },
+  "checks": {
+    "A_and_B_roles_separate": true,
+    "shared_basics_and_cross_training": true,
+    "ppt_sections": 20,
+    "reference_seconds": 605,
+    "Word_archives_valid": true,
+    "physical_validation_not_assumed": true
+  }
+}

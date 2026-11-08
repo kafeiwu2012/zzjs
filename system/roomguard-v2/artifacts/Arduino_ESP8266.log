@@ -1,0 +1,16 @@
+/workspace/arduino-toolchain/data/packages/esp8266/hardware/esp8266/3.1.2/tools/elf2bin.py:54: SyntaxWarning: invalid escape sequence '\s'
+  words = re.split('\s+', line)
+/workspace/arduino-toolchain/data/packages/esp8266/hardware/esp8266/3.1.2/tools/elf2bin.py:73: SyntaxWarning: invalid escape sequence '\s'
+  words = re.split('\s+', line)
+. Variables and constants in RAM (global, static), used 32428 / 80192 bytes (40%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ DATA     1524     initialized variables
+╠══ RODATA   2760     constants       
+╚══ BSS      28144    zeroed variables
+. Instruction RAM (IRAM_ATTR, ICACHE_RAM_ATTR), used 60551 / 65536 bytes (92%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ ICACHE   32768    reserved space for flash instruction cache
+╚══ IRAM     27783    code in IRAM    
+. Code in flash (default, ICACHE_FLASH_ATTR), used 324228 / 1048576 bytes (30%)
+║   SEGMENT  BYTES    DESCRIPTION
+╚══ IROM     324228   code in flash   

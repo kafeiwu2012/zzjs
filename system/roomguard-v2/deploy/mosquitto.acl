@@ -1,0 +1,7 @@
+user server
+topic read building/+/state
+topic read building/+/ack
+topic write building/+/command
+pattern write building/%u/state
+pattern write building/%u/ack
+pattern read building/%u/command

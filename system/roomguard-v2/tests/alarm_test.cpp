@@ -1,0 +1,3 @@
+#include <cassert>
+#include "../firmware/include/alarm.h"
+int main(){Alarm a;assert(a.update(1,true,0));assert(a.active);a.muted=true;a.update(1,true,100);assert(a.muted);a.update(3,true,200);assert(!a.muted);a.update(0,true,300);assert(a.active);a.update(0,true,10299);assert(a.active);a.update(0,true,10300);assert(!a.active);a.update(1,true,11000);a.update(0,false,12000);assert(a.active&&(a.reasons&1));a.update(0,true,13000);a.update(1,true,14000);a.update(0,true,15000);a.update(0,true,24000);assert(a.active);a.update(0,true,25000);assert(!a.active);Alarm b;b.update(2,true,0xfffffff0);b.update(0,true,0xfffffff5);b.update(0,true,10000);assert(!b.active);}

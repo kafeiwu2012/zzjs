@@ -1,0 +1,13 @@
+{
+  "status": "DRAFT_NOT_FOR_FABRICATION",
+  "pins_per_side": 15,
+  "pitch_mm": 2.54,
+  "esp32_row_center_mm": null,
+  "esp8266_row_center_mm": null,
+  "module_dimensions_and_pin_orders_verified": false,
+  "nominal_row_center_for_placement_only_mm": 25.4,
+  "board_outline_for_review_only_mm": [
+    180,
+    130
+  ]
+}

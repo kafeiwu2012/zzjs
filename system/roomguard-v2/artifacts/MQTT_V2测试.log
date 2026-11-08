@@ -1,0 +1,1 @@
+{"real_broker": "Mosquitto2.0.20 local test", "start_zero_nodes": true, "HTTP_enroll_pending_approve": true, "third_node_join_without_server_restart": true, "MQTT_ACL_isolation": true, "independent_silence_ack": true, "offline20s_and_alarm_preserved": true, "broker_account_install": "test_driver_not_Pi_root_helper", "physical_devices": false}

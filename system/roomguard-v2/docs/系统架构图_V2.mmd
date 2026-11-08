@@ -1,0 +1,22 @@
+flowchart LR
+ subgraph N[房间现场：每房间独立供电与判断]
+  S[DHT11 温湿度仅展示\nMQ-2烟雾与火焰DO检测] --> E[ESP32 / ESP8266\nArduino业务逻辑]
+  E --> A[本地声光告警\n断网仍工作]
+ end
+ E <-->|2.4GHz Wi-Fi / MQTT| R[MW305R 局域网路由器]
+ R <--> P[树莓派3B\nRaspberry Pi OS Lite 64-bit]
+ subgraph B[树莓派中心]
+  M[Mosquitto\n每节点账号与ACL]
+  W[Web / API\n动态注册与角色权限]
+  D[SQLite历史\n事件与审计 / CSV]
+  C[受限维护助手\n指定服务 / 备份恢复 / 日志]
+  M <--> W
+  W <--> D
+  W <--> C
+ end
+ P <--> M
+ P <--> W
+ W <--> T[教师后台\n接入批准 / 节点参数 / 终端方案]
+ W --> V[网页大屏 / 电脑与平板网页\nWindows10 EXE / Android5.1 APK]
+ H[Android5.1手机浏览器] -->|连接ESP加密配置AP\n192.168.4.1| E
+ T -.->|10分钟单设备接入码| H

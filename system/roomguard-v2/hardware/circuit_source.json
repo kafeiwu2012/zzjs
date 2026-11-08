@@ -1,0 +1,710 @@
+{
+  "revision": "V1.1 review draft",
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "5V INPUT 1=+5V 2=GND",
+      "pins": {
+        "1": "RAW_5V",
+        "2": "GND"
+      },
+      "footprint": "TerminalBlock:TerminalBlock_bornier-2_P5.08mm",
+      "group": "power",
+      "notes": "Regulated5V only; no12V"
+    },
+    {
+      "ref": "F1",
+      "value": "PTC hold1.1A / trip2.2A",
+      "pins": {
+        "1": "RAW_5V",
+        "2": "FUSED_IN"
+      },
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "group": "power",
+      "notes": "Verify peak current and thermal derating"
+    },
+    {
+      "ref": "Q1",
+      "value": "AO3401A reverse-polarity",
+      "pins": {
+        "1": "RP_GATE",
+        "2": "FUSED_OUT",
+        "3": "FUSED_IN"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "group": "power",
+      "notes": "Pin1G 2S 3D; verify exact part"
+    },
+    {
+      "ref": "R1",
+      "value": "100k",
+      "pins": {
+        "1": "RP_GATE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "SW1",
+      "value": "POWER SWITCH",
+      "pins": {
+        "1": "FUSED_OUT",
+        "2": "P5V"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "group": "power",
+      "notes": "External switch header; do not bridge with metal while powered"
+    },
+    {
+      "ref": "C1",
+      "value": "100uF/10V",
+      "pins": {
+        "1": "P5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "C2",
+      "value": "10uF",
+      "pins": {
+        "1": "P5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "pins": {
+        "1": "P5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "U1",
+      "value": "AP2112K-3.3",
+      "pins": {
+        "1": "P5V",
+        "2": "GND",
+        "3": "P5V",
+        "4": "NC_U1_4",
+        "5": "SENSOR_3V3"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "group": "power",
+      "notes": "600mA maximum datasheet rating; design sensor load<=100mA pending measurement"
+    },
+    {
+      "ref": "C4",
+      "value": "1uF",
+      "pins": {
+        "1": "P5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "C5",
+      "value": "1uF",
+      "pins": {
+        "1": "SENSOR_3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "C6",
+      "value": "10uF",
+      "pins": {
+        "1": "SENSOR_3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "power",
+      "notes": ""
+    },
+    {
+      "ref": "JP1",
+      "value": "SELECT ESP VREF (32:1-2 / 8266:2-3)",
+      "pins": {
+        "1": "ESP32_3V3",
+        "2": "ESP_3V3",
+        "3": "ESP8266_3V3"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "group": "power",
+      "notes": "One shunt only. Never bridge external LDO to ESP3V3"
+    },
+    {
+      "ref": "JP2",
+      "value": "ESP32 VIN ENABLE",
+      "pins": {
+        "1": "P5V",
+        "2": "ESP32_VIN"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "group": "power",
+      "notes": "Install only for selected board"
+    },
+    {
+      "ref": "JP3",
+      "value": "ESP8266 VIN ENABLE",
+      "pins": {
+        "1": "P5V",
+        "2": "ESP8266_VIN"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "group": "power",
+      "notes": "Install only for selected board"
+    },
+    {
+      "ref": "U2",
+      "value": "MCP6002-I/P unity buffer",
+      "pins": {
+        "1": "MQ_BUF",
+        "2": "MQ_BUF",
+        "3": "MQ_AO",
+        "4": "GND",
+        "5": "GND",
+        "6": "OPB_OUT",
+        "7": "OPB_OUT",
+        "8": "P5V"
+      },
+      "footprint": "Package_DIP:DIP-8_W7.62mm",
+      "group": "analog",
+      "notes": "Unused amplifier B is a ground follower, not floating"
+    },
+    {
+      "ref": "C7",
+      "value": "100nF",
+      "pins": {
+        "1": "P5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R2",
+      "value": "20k 1%",
+      "pins": {
+        "1": "MQ_BUF",
+        "2": "ADC32_DIV"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R3",
+      "value": "10k 1%",
+      "pins": {
+        "1": "ADC32_DIV",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "pins": {
+        "1": "ADC32_DIV",
+        "2": "ADC32"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "C8",
+      "value": "10nF",
+      "pins": {
+        "1": "ADC32",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R5",
+      "value": "56k 1%",
+      "pins": {
+        "1": "MQ_BUF",
+        "2": "ADC8266_DIV"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R6",
+      "value": "10k 1%",
+      "pins": {
+        "1": "ADC8266_DIV",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "R7",
+      "value": "1k",
+      "pins": {
+        "1": "ADC8266_DIV",
+        "2": "ADC8266"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "C9",
+      "value": "10nF",
+      "pins": {
+        "1": "ADC8266",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "analog",
+      "notes": ""
+    },
+    {
+      "ref": "U3",
+      "value": "SN74LVC2G17DCKR",
+      "pins": {
+        "1": "SMOKE_IN",
+        "2": "GND",
+        "3": "FLAME_IN",
+        "4": "FLAME_MCU",
+        "5": "ESP_3V3",
+        "6": "SMOKE_MCU"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "group": "logic",
+      "notes": "5.5V tolerant inputs and Ioff; do not replace with non5V-tolerant HC buffer"
+    },
+    {
+      "ref": "C10",
+      "value": "100nF",
+      "pins": {
+        "1": "ESP_3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "pins": {
+        "1": "MQ_DO",
+        "2": "SMOKE_IN"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "pins": {
+        "1": "MQ_DO",
+        "2": "P5V"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R10",
+      "value": "1k",
+      "pins": {
+        "1": "FLAME_DO",
+        "2": "FLAME_IN"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "pins": {
+        "1": "FLAME_DO",
+        "2": "SENSOR_3V3"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "Q2",
+      "value": "BSS138 DHT bidirectional",
+      "pins": {
+        "1": "ESP_3V3",
+        "2": "DHT_MCU",
+        "3": "DHT_SENSOR"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "group": "logic",
+      "notes": "Gate ESP VREF; source MCU; drain sensor. No inversion"
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "pins": {
+        "1": "DHT_MCU",
+        "2": "ESP_3V3"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "pins": {
+        "1": "DHT_SENSOR",
+        "2": "SENSOR_3V3"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "Q3",
+      "value": "BSS138 buzzer low-active",
+      "pins": {
+        "1": "ESP_3V3",
+        "2": "BUZZ_MCU",
+        "3": "BUZZ_INPUT"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "group": "logic",
+      "notes": "Module input load must be verified; MCU HIGH=off, LOW=on"
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "pins": {
+        "1": "BUZZ_MCU",
+        "2": "ESP_3V3"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "pins": {
+        "1": "BUZZ_INPUT",
+        "2": "P5V"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R16",
+      "value": "330",
+      "pins": {
+        "1": "LED_R_MCU",
+        "2": "LED_R"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R17",
+      "value": "330",
+      "pins": {
+        "1": "LED_G_MCU",
+        "2": "LED_G"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "R18",
+      "value": "330",
+      "pins": {
+        "1": "LED_B_MCU",
+        "2": "LED_B"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "group": "logic",
+      "notes": ""
+    },
+    {
+      "ref": "J2",
+      "value": "DHT11 SOCKET",
+      "pins": {
+        "1": "DHT_SENSOR",
+        "2": "SENSOR_3V3",
+        "3": "GND"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical",
+      "group": "modules",
+      "notes": "J_DHT; Reference order DATA VCC GND; physical dimensions pending"
+    },
+    {
+      "ref": "J3",
+      "value": "MQ2 SOCKET",
+      "pins": {
+        "1": "MQ_AO",
+        "2": "MQ_DO",
+        "3": "GND",
+        "4": "P5V"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical",
+      "group": "modules",
+      "notes": "J_MQ; Reference order AO DO GND VCC; verify actual module"
+    },
+    {
+      "ref": "J4",
+      "value": "FLAME SOCKET",
+      "pins": {
+        "1": "SENSOR_3V3",
+        "2": "GND",
+        "3": "FLAME_DO"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical",
+      "group": "modules",
+      "notes": "J_FLAME; Reference order VCC GND DO; verify actual module"
+    },
+    {
+      "ref": "J5",
+      "value": "BUZZER SOCKET",
+      "pins": {
+        "1": "GND",
+        "2": "BUZZ_INPUT",
+        "3": "P5V"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical",
+      "group": "modules",
+      "notes": "J_BUZZ; Reference order GND IO VCC; verify actual module"
+    },
+    {
+      "ref": "J6",
+      "value": "RGB COMMON CATHODE",
+      "pins": {
+        "1": "GND",
+        "2": "LED_B",
+        "3": "LED_G",
+        "4": "LED_R"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical",
+      "group": "modules",
+      "notes": "J_RGB; Reference order GND B G R; verify actual module"
+    },
+    {
+      "ref": "J7",
+      "value": "J32L 15pin SOCKET",
+      "pins": {
+        "1": "NC32_EN",
+        "2": "NC32_VP",
+        "3": "NC32_VN",
+        "4": "ADC32",
+        "5": "NC32_35",
+        "6": "NC32_32",
+        "7": "NC32_33",
+        "8": "FLAME_MCU",
+        "9": "SMOKE_MCU",
+        "10": "DHT_MCU",
+        "11": "NC32_14",
+        "12": "NC32_12",
+        "13": "NC32_13",
+        "14": "GND",
+        "15": "ESP32_VIN"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",
+      "group": "sockets",
+      "notes": "J32L; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board"
+    },
+    {
+      "ref": "J8",
+      "value": "J32R 15pin SOCKET",
+      "pins": {
+        "1": "BUZZ_MCU",
+        "2": "NC32_22",
+        "3": "NC32_TX0",
+        "4": "NC32_RX0",
+        "5": "LED_B_MCU",
+        "6": "LED_G_MCU",
+        "7": "LED_R_MCU",
+        "8": "NC32_5",
+        "9": "NC32_TX2",
+        "10": "NC32_RX2",
+        "11": "NC32_4",
+        "12": "NC32_2",
+        "13": "NC32_15",
+        "14": "GND",
+        "15": "ESP32_3V3"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",
+      "group": "sockets",
+      "notes": "J32R; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board"
+    },
+    {
+      "ref": "J9",
+      "value": "J8266L 15pin SOCKET",
+      "pins": {
+        "1": "ADC8266",
+        "2": "NC8266_RSV1",
+        "3": "NC8266_RSV2",
+        "4": "NC8266_SD3",
+        "5": "NC8266_SD2",
+        "6": "NC8266_SD1",
+        "7": "NC8266_CMD",
+        "8": "NC8266_SD0",
+        "9": "NC8266_CLK",
+        "10": "GND",
+        "11": "ESP8266_3V3",
+        "12": "NC8266_EN",
+        "13": "NC8266_RST",
+        "14": "GND",
+        "15": "ESP8266_VIN"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",
+      "group": "sockets",
+      "notes": "J8266L; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board"
+    },
+    {
+      "ref": "J10",
+      "value": "J8266R 15pin SOCKET",
+      "pins": {
+        "1": "LED_B_MCU",
+        "2": "LED_G_MCU",
+        "3": "LED_R_MCU",
+        "4": "NC8266_D3",
+        "5": "DHT_MCU",
+        "6": "ESP8266_3V3",
+        "7": "GND",
+        "8": "SMOKE_MCU",
+        "9": "FLAME_MCU",
+        "10": "BUZZ_MCU",
+        "11": "NC8266_D8",
+        "12": "NC8266_RX",
+        "13": "NC8266_TX",
+        "14": "GND",
+        "15": "ESP8266_3V3"
+      },
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",
+      "group": "sockets",
+      "notes": "J8266R; Pitch2.54mm confirmed; row spacing UNKNOWN; pin labels must be checked against actual board"
+    },
+    {
+      "ref": "TP1",
+      "value": "P5V",
+      "pins": {
+        "1": "P5V"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP2",
+      "value": "SENSOR_3V3",
+      "pins": {
+        "1": "SENSOR_3V3"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP3",
+      "value": "ESP_3V3",
+      "pins": {
+        "1": "ESP_3V3"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP4",
+      "value": "MQ_AO",
+      "pins": {
+        "1": "MQ_AO"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP5",
+      "value": "ADC32",
+      "pins": {
+        "1": "ADC32"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP6",
+      "value": "ADC8266",
+      "pins": {
+        "1": "ADC8266"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP7",
+      "value": "SMOKE_MCU",
+      "pins": {
+        "1": "SMOKE_MCU"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP8",
+      "value": "FLAME_MCU",
+      "pins": {
+        "1": "FLAME_MCU"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    },
+    {
+      "ref": "TP9",
+      "value": "GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D2.0mm",
+      "group": "testpoints",
+      "notes": ""
+    }
+  ]
+}

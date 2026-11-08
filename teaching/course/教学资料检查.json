@@ -1,0 +1,22 @@
+{
+  "学生学习与实操任务单_V2.pdf": {
+    "pages": 16
+  },
+  "教师评价与参考答案_V2.pdf": {
+    "pages": 7
+  },
+  "教师项目化教学指导手册_V2.pdf": {
+    "pages": 17
+  },
+  "课堂知识与操作速查卡_V2.pdf": {
+    "pages": 3
+  },
+  "curriculum": {
+    "tasks": 12,
+    "periods": 36,
+    "minutes_per_period": 45,
+    "clock_hours": 27,
+    "individual_assessment": true,
+    "simulated_and_physical_evidence_separated": true
+  }
+}

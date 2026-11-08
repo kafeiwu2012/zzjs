@@ -1,0 +1,20 @@
+[Unit]
+Description=RoomGuard monitoring service
+After=network.target mosquitto.service
+Wants=mosquitto.service
+[Service]
+Type=simple
+User=roomguard
+Group=roomguard
+WorkingDirectory=/opt/roomguard
+EnvironmentFile=/etc/roomguard/server.env
+ExecStart=/opt/roomguard/venv/bin/uvicorn server.app:app --host 0.0.0.0 --port 8080 --workers 1
+Restart=on-failure
+RestartSec=3
+UMask=0077
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/roomguard /etc/mosquitto /run/roomguard-control /var/lib/roomguard-control /var/log/roomguard-control
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target

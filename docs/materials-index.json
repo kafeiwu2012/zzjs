@@ -1,0 +1,746 @@
+[
+  {
+    "original_file": "Arduino_IDE双节点烧录手册_V1.1.docx",
+    "repository_path": "archive/v1.1/Arduino_IDE双节点烧录手册_V1.1.docx",
+    "bytes": 41892,
+    "original_sha256": "f9f86332904cd2253ffcf107bcb07feca6aa64b36c4a4fd231e6d45381bbe1f2",
+    "uploaded_sha256": "f9f86332904cd2253ffcf107bcb07feca6aa64b36c4a4fd231e6d45381bbe1f2",
+    "sanitized": false
+  },
+  {
+    "original_file": "Arduino_IDE双节点烧录手册_V1.1.pdf",
+    "repository_path": "archive/v1.1/Arduino_IDE双节点烧录手册_V1.1.pdf",
+    "bytes": 13286,
+    "original_sha256": "90bc6473b4ba05c76f9d78e2c0dadb1b550134da32433f19625413b706ebaf1a",
+    "uploaded_sha256": "90bc6473b4ba05c76f9d78e2c0dadb1b550134da32433f19625413b706ebaf1a",
+    "sanitized": false
+  },
+  {
+    "original_file": "ESP手机配网与Arduino烧录_V2.docx",
+    "repository_path": "manuals/ESP手机配网与Arduino烧录_V2.docx",
+    "bytes": 41325,
+    "original_sha256": "f49023e33ba8b37d4620bbd7520e12adc975a6da3511fd714d197bf7f2ad3b58",
+    "uploaded_sha256": "f49023e33ba8b37d4620bbd7520e12adc975a6da3511fd714d197bf7f2ad3b58",
+    "sanitized": false
+  },
+  {
+    "original_file": "ESP手机配网与Arduino烧录_V2.pdf",
+    "repository_path": "manuals/ESP手机配网与Arduino烧录_V2.pdf",
+    "bytes": 10401,
+    "original_sha256": "f313ffd4d54b314ad7a9cf585bb0bcf22e45cc0af835172cf4fd918b96834151",
+    "uploaded_sha256": "f313ffd4d54b314ad7a9cf585bb0bcf22e45cc0af835172cf4fd918b96834151",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Android5.1.apk",
+    "repository_path": "archive/v1.0/RoomGuard-Android5.1.apk",
+    "bytes": 20956,
+    "original_sha256": "9f2549a65c4509d0926a4701c17e08b516f24931d3c56c0000a3ed253a602286",
+    "uploaded_sha256": "9f2549a65c4509d0926a4701c17e08b516f24931d3c56c0000a3ed253a602286",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Android5.1_V1.1.apk",
+    "repository_path": "archive/v1.1/RoomGuard-Android5.1_V1.1.apk",
+    "bytes": 20956,
+    "original_sha256": "0f5cc4b75d25886e67a12967e5d1d30134e341a9411d1982e0aa1cc2cf3303fa",
+    "uploaded_sha256": "0f5cc4b75d25886e67a12967e5d1d30134e341a9411d1982e0aa1cc2cf3303fa",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Android5.1_V2.apk",
+    "repository_path": "downloads/v2/RoomGuard-Android5.1_V2.apk",
+    "bytes": 20956,
+    "original_sha256": "dfa8da61cfe1617a2d6c7326d4bb1f9db268a2f22e484f4cb347c287162a1cdd",
+    "uploaded_sha256": "dfa8da61cfe1617a2d6c7326d4bb1f9db268a2f22e484f4cb347c287162a1cdd",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Windows10-x64.exe",
+    "repository_path": "archive/v1.0/RoomGuard-Windows10-x64.exe",
+    "bytes": 154112,
+    "original_sha256": "4a505b71a799faa0d7ef0e87d810bc66f095b8356140dc66dbc8b977efa5016a",
+    "uploaded_sha256": "4a505b71a799faa0d7ef0e87d810bc66f095b8356140dc66dbc8b977efa5016a",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Windows10-x64_V1.1.exe",
+    "repository_path": "archive/v1.1/RoomGuard-Windows10-x64_V1.1.exe",
+    "bytes": 154112,
+    "original_sha256": "beba16bda465a4852146da6db8f4e6e65e29158bafa06e56e952ace3b32a0a49",
+    "uploaded_sha256": "beba16bda465a4852146da6db8f4e6e65e29158bafa06e56e952ace3b32a0a49",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard-Windows10-x64_V2.exe",
+    "repository_path": "downloads/v2/RoomGuard-Windows10-x64_V2.exe",
+    "bytes": 154112,
+    "original_sha256": "d11ecc2ba449ad6f6089a728c3ad1d067c3cedd28cc7c67041d6ccb7808ef187",
+    "uploaded_sha256": "d11ecc2ba449ad6f6089a728c3ad1d067c3cedd28cc7c67041d6ccb7808ef187",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_ArduinoIDE_ESP32_ESP8266_V1.1.zip",
+    "repository_path": "archive/v1.1/RoomGuard_ArduinoIDE_ESP32_ESP8266_V1.1.zip",
+    "bytes": 326609,
+    "original_sha256": "24478b45fc9759448022b4aaf7eef53ee8d4029e4f6af85e2fb0dd55d3df4ff6",
+    "uploaded_sha256": "8b4b436a79bd56e8257c7ba62f0fc5af80672e4de1aebac090355fafa70a9599",
+    "sanitized": true
+  },
+  {
+    "original_file": "RoomGuard_V1.1_FullProject.zip",
+    "repository_path": "archive/v1.1/RoomGuard_V1.1_FullProject.zip",
+    "bytes": 10430513,
+    "original_sha256": "ca169c60ebb102b5dfa08a9a9aac9098e4bfe6a731ca3077756445c097dbc7e9",
+    "uploaded_sha256": "1c57faa3105f5dea284de6cfd77f295bf202a14579b173278a55a560f844c125",
+    "sanitized": true
+  },
+  {
+    "original_file": "RoomGuard_V2_ArduinoIDE.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_ArduinoIDE.zip",
+    "bytes": 334039,
+    "original_sha256": "9849dead29804817a65045075e3a408ba4f19995fd9262be9326f419e37606e1",
+    "uploaded_sha256": "9849dead29804817a65045075e3a408ba4f19995fd9262be9326f419e37606e1",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_FullProject.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_FullProject.zip",
+    "bytes": 7477417,
+    "original_sha256": "5e4f87deee53e04d8fd4490ebea9f08f488ea37e03d4dc6a1c6e94761d0a00af",
+    "uploaded_sha256": "5e4f87deee53e04d8fd4490ebea9f08f488ea37e03d4dc6a1c6e94761d0a00af",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_SHA256.txt",
+    "repository_path": "downloads/v2/original-checksums/RoomGuard_V2_SHA256.txt",
+    "bytes": 2888,
+    "original_sha256": "bcadc441666df50832213cb51ebb75e7cd4074d7cf24446c0682ef4bc3e12917",
+    "uploaded_sha256": "bcadc441666df50832213cb51ebb75e7cd4074d7cf24446c0682ef4bc3e12917",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_下载与使用说明.txt",
+    "repository_path": "downloads/v2/RoomGuard_V2_下载与使用说明.txt",
+    "bytes": 2298,
+    "original_sha256": "692c52954de42f19e12c988b269aea2c81e6a124a8ac6432439213998170d0e3",
+    "uploaded_sha256": "692c52954de42f19e12c988b269aea2c81e6a124a8ac6432439213998170d0e3",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_中职竞赛教学资料包.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_中职竞赛教学资料包.zip",
+    "bytes": 3197637,
+    "original_sha256": "14dfcaed81e35849e14d96b9ad6345db98d703669ab8641a785755b292b44352",
+    "uploaded_sha256": "14dfcaed81e35849e14d96b9ad6345db98d703669ab8641a785755b292b44352",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_中职竞赛教学资料包.zip.sha256.txt",
+    "repository_path": "downloads/v2/original-checksums/RoomGuard_V2_中职竞赛教学资料包.zip.sha256.txt",
+    "bytes": 111,
+    "original_sha256": "b799e46fe36ee9e3ec7765c0b3025ba788da7a4fcdd2b610124616b6e35a3159",
+    "uploaded_sha256": "b799e46fe36ee9e3ec7765c0b3025ba788da7a4fcdd2b610124616b6e35a3159",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_参赛学生双岗位学习手册.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_参赛学生双岗位学习手册.zip",
+    "bytes": 3117334,
+    "original_sha256": "87d0631459a0b286c5056378dc6adb7f864f29714a2e60e47f17ccb73e38376a",
+    "uploaded_sha256": "87d0631459a0b286c5056378dc6adb7f864f29714a2e60e47f17ccb73e38376a",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_参赛学生双岗位学习手册.zip.sha256.txt",
+    "repository_path": "downloads/v2/original-checksums/RoomGuard_V2_参赛学生双岗位学习手册.zip.sha256.txt",
+    "bytes": 117,
+    "original_sha256": "3f8986ca321f8aaf7b4c0107481dffe139a08d15dc3e1fd2137fb6334139f815",
+    "uploaded_sha256": "3f8986ca321f8aaf7b4c0107481dffe139a08d15dc3e1fd2137fb6334139f815",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_基板参考草案_不可直接打板.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_基板参考草案_不可直接打板.zip",
+    "bytes": 485209,
+    "original_sha256": "1878035f267dfd6473b41c995862cc5f21a3cb9b9ae632a2c0aabbbf14a6fbcc",
+    "uploaded_sha256": "1878035f267dfd6473b41c995862cc5f21a3cb9b9ae632a2c0aabbbf14a6fbcc",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_完整交付包.zip",
+    "repository_path": "downloads/v2/RoomGuard_V2_完整交付包.zip",
+    "bytes": 12726644,
+    "original_sha256": "342859ded7b4c7aa98602d26441cf0ca7729384d476c65b4a858ad5548c43a36",
+    "uploaded_sha256": "342859ded7b4c7aa98602d26441cf0ca7729384d476c65b4a858ad5548c43a36",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_完整交付包.zip.sha256.txt",
+    "repository_path": "downloads/v2/original-checksums/RoomGuard_V2_完整交付包.zip.sha256.txt",
+    "bytes": 99,
+    "original_sha256": "7ab71749f07b80093a018fbe192134311a31a6826577920f53daa5e9d0b8f86a",
+    "uploaded_sha256": "7ab71749f07b80093a018fbe192134311a31a6826577920f53daa5e9d0b8f86a",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_竞赛展示_教师后台与自适应节点.pdf",
+    "repository_path": "presentation/RoomGuard_V2_竞赛展示_教师后台与自适应节点.pdf",
+    "bytes": 1465355,
+    "original_sha256": "871053c54eabe1fe83d8e1d9b0066d931d7f31af67973ead23cb9b3f301f712b",
+    "uploaded_sha256": "871053c54eabe1fe83d8e1d9b0066d931d7f31af67973ead23cb9b3f301f712b",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_V2_竞赛展示_教师后台与自适应节点.pptx",
+    "repository_path": "presentation/RoomGuard_V2_竞赛展示_教师后台与自适应节点.pptx",
+    "bytes": 928338,
+    "original_sha256": "400161fdeb71f2968a0157b1c2ec564dc6c587ee664dac62aff6544e5440d2eb",
+    "uploaded_sha256": "400161fdeb71f2968a0157b1c2ec564dc6c587ee664dac62aff6544e5440d2eb",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_中职竞赛项目展示_双人配合版.pptx",
+    "repository_path": "archive/v1.0/RoomGuard_中职竞赛项目展示_双人配合版.pptx",
+    "bytes": 511275,
+    "original_sha256": "01f04c031729e9ca61a15862b6a178030a50701602dbf834b060bce578590ec3",
+    "uploaded_sha256": "01f04c031729e9ca61a15862b6a178030a50701602dbf834b060bce578590ec3",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_全部项目与竞赛资料_汇总包.zip",
+    "repository_path": "archive/combined-v1/RoomGuard_全部项目与竞赛资料_汇总包.zip",
+    "bytes": 30906810,
+    "original_sha256": "81ac026d2654d59b527251c9f4f91fa79d5cf9b43e80817ff67543c992ba4d63",
+    "uploaded_sha256": "a24d1ada4b03d3e72e9308b57669f325fa808b553de31c40c2b143b500f6ccda",
+    "sanitized": true
+  },
+  {
+    "original_file": "RoomGuard_全部项目与竞赛资料_汇总包.zip.sha256.txt",
+    "repository_path": "archive/combined-v1/original-checksums/RoomGuard_全部项目与竞赛资料_汇总包.zip.sha256.txt",
+    "bytes": 118,
+    "original_sha256": "e135baf7739f6572a41601a9e73b1e1f3c1ef33fbaaf4ae694937d54b0bc6ef7",
+    "uploaded_sha256": "e135baf7739f6572a41601a9e73b1e1f3c1ef33fbaaf4ae694937d54b0bc6ef7",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_楼宇环境监测系统_V1.0_完整项目.zip",
+    "repository_path": "archive/v1.0/RoomGuard_楼宇环境监测系统_V1.0_完整项目.zip",
+    "bytes": 7822828,
+    "original_sha256": "cb58a6d3083ee860ef1f19aaae76ef6528dfdea827dff22a8a76e76fe174ac72",
+    "uploaded_sha256": "cb58a6d3083ee860ef1f19aaae76ef6528dfdea827dff22a8a76e76fe174ac72",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_竞赛展示PPT预览.pdf",
+    "repository_path": "archive/v1.0/RoomGuard_竞赛展示PPT预览.pdf",
+    "bytes": 1197516,
+    "original_sha256": "3d172d13a0fa4e57830a7ea546bc5f3110ccb085b5c4a5bc7b90ea089cd977f9",
+    "uploaded_sha256": "3d172d13a0fa4e57830a7ea546bc5f3110ccb085b5c4a5bc7b90ea089cd977f9",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_竞赛汇报PPT与双人演讲资料包.zip",
+    "repository_path": "archive/v1.0/RoomGuard_竞赛汇报PPT与双人演讲资料包.zip",
+    "bytes": 2138920,
+    "original_sha256": "1b3f7004016825afdc4b8a34d775237010a09472765d94d18a6e127334834dee",
+    "uploaded_sha256": "1b3f7004016825afdc4b8a34d775237010a09472765d94d18a6e127334834dee",
+    "sanitized": false
+  },
+  {
+    "original_file": "RoomGuard_通用基板设计草案_V1.1.zip",
+    "repository_path": "archive/v1.1/RoomGuard_通用基板设计草案_V1.1.zip",
+    "bytes": 488774,
+    "original_sha256": "4059c12f8d190582d8027007050f358850c2123f34cd7c6ca4cf1b5b97199154",
+    "uploaded_sha256": "4059c12f8d190582d8027007050f358850c2123f34cd7c6ca4cf1b5b97199154",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1_下载包_SHA256.txt",
+    "repository_path": "archive/v1.1/original-checksums/V1.1_下载包_SHA256.txt",
+    "bytes": 317,
+    "original_sha256": "19c309f11bdab4c1fd3f501d285ae6333c6ce4fd2d679671531e72fd7416ed57",
+    "uploaded_sha256": "19c309f11bdab4c1fd3f501d285ae6333c6ce4fd2d679671531e72fd7416ed57",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1_动态界面_大屏.png",
+    "repository_path": "archive/v1.1/V1.1_动态界面_大屏.png",
+    "bytes": 167751,
+    "original_sha256": "7eabff4d48c822370e43d536f043aa81e13a72b1ad63fc7b57180dcc7bcd28b0",
+    "uploaded_sha256": "7eabff4d48c822370e43d536f043aa81e13a72b1ad63fc7b57180dcc7bcd28b0",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1_动态界面_手机.png",
+    "repository_path": "archive/v1.1/V1.1_动态界面_手机.png",
+    "bytes": 173683,
+    "original_sha256": "809d1dce4494e0e1ed67a8e2c6562340a02c9a35ae578e7d4cbb0a008c87cf83",
+    "uploaded_sha256": "809d1dce4494e0e1ed67a8e2c6562340a02c9a35ae578e7d4cbb0a008c87cf83",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1_动态界面_电脑.png",
+    "repository_path": "archive/v1.1/V1.1_动态界面_电脑.png",
+    "bytes": 169811,
+    "original_sha256": "06b73cf6e54935431e8d3f890f1a85dbb4feac96aadbe146b1d0fa057d190b2e",
+    "uploaded_sha256": "06b73cf6e54935431e8d3f890f1a85dbb4feac96aadbe146b1d0fa057d190b2e",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1_基板功能与电源图.svg",
+    "repository_path": "archive/v1.1/V1.1_基板功能与电源图.svg",
+    "bytes": 4881,
+    "original_sha256": "f07160508878c6f02aefc2b0612ae128d609e90d4be97c098681fa3fead7eb0b",
+    "uploaded_sha256": "f07160508878c6f02aefc2b0612ae128d609e90d4be97c098681fa3fead7eb0b",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1更新与验证报告.docx",
+    "repository_path": "archive/v1.1/V1.1更新与验证报告.docx",
+    "bytes": 39733,
+    "original_sha256": "aa56e3a871e197f3982bb748e6e7e01a0f1e338aa5a2196263cb66a923cbcaef",
+    "uploaded_sha256": "aa56e3a871e197f3982bb748e6e7e01a0f1e338aa5a2196263cb66a923cbcaef",
+    "sanitized": false
+  },
+  {
+    "original_file": "V1.1更新与验证报告.pdf",
+    "repository_path": "archive/v1.1/V1.1更新与验证报告.pdf",
+    "bytes": 6903,
+    "original_sha256": "8f7a4b9d347ae89e1ec190280977a5752be054bb7a566d237142939e9fe7fcb3",
+    "uploaded_sha256": "8f7a4b9d347ae89e1ec190280977a5752be054bb7a566d237142939e9fe7fcb3",
+    "sanitized": false
+  },
+  {
+    "original_file": "V2_PPT_总览1.png",
+    "repository_path": "presentation/V2_PPT_总览1.png",
+    "bytes": 269963,
+    "original_sha256": "47c14dee767849a29449ea192f16e5176865370b0b7dba9d8a6d9dee568e2b81",
+    "uploaded_sha256": "47c14dee767849a29449ea192f16e5176865370b0b7dba9d8a6d9dee568e2b81",
+    "sanitized": false
+  },
+  {
+    "original_file": "V2_PPT_总览2.png",
+    "repository_path": "presentation/V2_PPT_总览2.png",
+    "bytes": 275094,
+    "original_sha256": "01b87ad56c31c37c7193638fc4bde007808039cd0203897c567e838869677b24",
+    "uploaded_sha256": "01b87ad56c31c37c7193638fc4bde007808039cd0203897c567e838869677b24",
+    "sanitized": false
+  },
+  {
+    "original_file": "交付与测试报告.md",
+    "repository_path": "archive/v1.0/交付与测试报告.md",
+    "bytes": 4953,
+    "original_sha256": "cae032913f98ef7eec62d00cc9bf5310f45cdb88b4dd32cd46b74248d66c2085",
+    "uploaded_sha256": "cae032913f98ef7eec62d00cc9bf5310f45cdb88b4dd32cd46b74248d66c2085",
+    "sanitized": false
+  },
+  {
+    "original_file": "动态终端使用说明_V1.1.docx",
+    "repository_path": "archive/v1.1/动态终端使用说明_V1.1.docx",
+    "bytes": 38644,
+    "original_sha256": "e7c03b61d7823f66796043b04d8bcb9c59ef65ee265ce91aba080705bbc779dc",
+    "uploaded_sha256": "e7c03b61d7823f66796043b04d8bcb9c59ef65ee265ce91aba080705bbc779dc",
+    "sanitized": false
+  },
+  {
+    "original_file": "动态终端使用说明_V1.1.pdf",
+    "repository_path": "archive/v1.1/动态终端使用说明_V1.1.pdf",
+    "bytes": 4415,
+    "original_sha256": "197fb426bac1aa2cd5d6247686a3f6e2db51b523f9525f96c997063d9c3f7497",
+    "uploaded_sha256": "197fb426bac1aa2cd5d6247686a3f6e2db51b523f9525f96c997063d9c3f7497",
+    "sanitized": false
+  },
+  {
+    "original_file": "参赛学生A_系统操作学习手册_V2.docx",
+    "repository_path": "students/standalone/参赛学生A_系统操作学习手册_V2.docx",
+    "bytes": 142475,
+    "original_sha256": "553dd97a26a7a72ddcc74390c8e606a8fa084d2ae5ae6643cb35475a3e0851c5",
+    "uploaded_sha256": "553dd97a26a7a72ddcc74390c8e606a8fa084d2ae5ae6643cb35475a3e0851c5",
+    "sanitized": false
+  },
+  {
+    "original_file": "参赛学生A_系统操作学习手册_V2.pdf",
+    "repository_path": "students/standalone/参赛学生A_系统操作学习手册_V2.pdf",
+    "bytes": 119780,
+    "original_sha256": "685f71bc4995c4df7ab07af2a3308e59e3846d1133d41969335111e759719d5b",
+    "uploaded_sha256": "685f71bc4995c4df7ab07af2a3308e59e3846d1133d41969335111e759719d5b",
+    "sanitized": false
+  },
+  {
+    "original_file": "参赛学生B_展示演讲学习手册_V2.docx",
+    "repository_path": "students/standalone/参赛学生B_展示演讲学习手册_V2.docx",
+    "bytes": 140645,
+    "original_sha256": "2e8dea2f007c4c11fef6ea76be3cb4744f5a93281d36b792f27dbbc3c1b19c1f",
+    "uploaded_sha256": "2e8dea2f007c4c11fef6ea76be3cb4744f5a93281d36b792f27dbbc3c1b19c1f",
+    "sanitized": false
+  },
+  {
+    "original_file": "参赛学生B_展示演讲学习手册_V2.pdf",
+    "repository_path": "students/standalone/参赛学生B_展示演讲学习手册_V2.pdf",
+    "bytes": 125862,
+    "original_sha256": "1f3b4af6b4625229760fbfcde094b8dbd7093df291a653d76646ae32e0f3eba2",
+    "uploaded_sha256": "1f3b4af6b4625229760fbfcde094b8dbd7093df291a653d76646ae32e0f3eba2",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人比赛配合随身卡_V2.docx",
+    "repository_path": "students/standalone/双人比赛配合随身卡_V2.docx",
+    "bytes": 107357,
+    "original_sha256": "8da5b08e10b65bb4e831530a40f747f8264ac0aa63276f7e9c30d856d54edf6b",
+    "uploaded_sha256": "8da5b08e10b65bb4e831530a40f747f8264ac0aa63276f7e9c30d856d54edf6b",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人比赛配合随身卡_V2.pdf",
+    "repository_path": "students/standalone/双人比赛配合随身卡_V2.pdf",
+    "bytes": 74389,
+    "original_sha256": "db026a456eae1d8774a2f694688646280974d818a4265384a07cdffaa544fc1e",
+    "uploaded_sha256": "db026a456eae1d8774a2f694688646280974d818a4265384a07cdffaa544fc1e",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人演讲与教师排练_V2.docx",
+    "repository_path": "manuals/双人演讲与教师排练_V2.docx",
+    "bytes": 44289,
+    "original_sha256": "48c7169ad5fcf57c10b152f458e7c99a6aa0cda648ed30101be810c08529da20",
+    "uploaded_sha256": "48c7169ad5fcf57c10b152f458e7c99a6aa0cda648ed30101be810c08529da20",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人演讲与教师排练_V2.pdf",
+    "repository_path": "manuals/双人演讲与教师排练_V2.pdf",
+    "bytes": 23030,
+    "original_sha256": "ecd752cd042b768b1f3eb0e8a8ce46acce3a45cd13d7d408e606e40415b1c642",
+    "uploaded_sha256": "ecd752cd042b768b1f3eb0e8a8ce46acce3a45cd13d7d408e606e40415b1c642",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人演讲稿与教师排练手册.docx",
+    "repository_path": "archive/v1.0/双人演讲稿与教师排练手册.docx",
+    "bytes": 46070,
+    "original_sha256": "94e749ead5f4af582b1f5fc1fd312ec3d1c6a78e5ecaf47e3230fa726fe4f961",
+    "uploaded_sha256": "94e749ead5f4af582b1f5fc1fd312ec3d1c6a78e5ecaf47e3230fa726fe4f961",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人演讲稿与教师排练手册.md",
+    "repository_path": "archive/v1.0/双人演讲稿与教师排练手册.md",
+    "bytes": 20269,
+    "original_sha256": "9be7523fa2fbcccfa101b210cfa6338cab8e76b7a62d56163f50123d4d999a95",
+    "uploaded_sha256": "9be7523fa2fbcccfa101b210cfa6338cab8e76b7a62d56163f50123d4d999a95",
+    "sanitized": false
+  },
+  {
+    "original_file": "双人演讲稿与教师排练手册.pdf",
+    "repository_path": "archive/v1.0/双人演讲稿与教师排练手册.pdf",
+    "bytes": 25248,
+    "original_sha256": "60fe182c870ceb9c0f0b73021da2887d4bdcad9e089aa1ee35592cc19e10c240",
+    "uploaded_sha256": "60fe182c870ceb9c0f0b73021da2887d4bdcad9e089aa1ee35592cc19e10c240",
+    "sanitized": false
+  },
+  {
+    "original_file": "学生学习与实操任务单_V2.docx",
+    "repository_path": "teaching/standalone/学生学习与实操任务单_V2.docx",
+    "bytes": 49264,
+    "original_sha256": "bbdc20e7ffa8a74d015c51d3f2e49b99a766f4fdf8d080c3f1223bb9b11b3fc6",
+    "uploaded_sha256": "bbdc20e7ffa8a74d015c51d3f2e49b99a766f4fdf8d080c3f1223bb9b11b3fc6",
+    "sanitized": false
+  },
+  {
+    "original_file": "学生学习与实操任务单_V2.pdf",
+    "repository_path": "teaching/standalone/学生学习与实操任务单_V2.pdf",
+    "bytes": 43629,
+    "original_sha256": "79f4af21a25643d5e8339c4bf17db4e706cc5c7adcc85504c77ed7551504cf94",
+    "uploaded_sha256": "79f4af21a25643d5e8339c4bf17db4e706cc5c7adcc85504c77ed7551504cf94",
+    "sanitized": false
+  },
+  {
+    "original_file": "实机验收记录模板_V2.docx",
+    "repository_path": "manuals/实机验收记录模板_V2.docx",
+    "bytes": 40099,
+    "original_sha256": "68261bd24172432c620d23a7007ce31959ea599016cf66d3faa7ba65e5098e3f",
+    "uploaded_sha256": "68261bd24172432c620d23a7007ce31959ea599016cf66d3faa7ba65e5098e3f",
+    "sanitized": false
+  },
+  {
+    "original_file": "实机验收记录模板_V2.pdf",
+    "repository_path": "manuals/实机验收记录模板_V2.pdf",
+    "bytes": 9173,
+    "original_sha256": "5d732aa0d5974c06a996eb24df37e1010cba8e03295e921dfc24e38df8f00aae",
+    "uploaded_sha256": "5d732aa0d5974c06a996eb24df37e1010cba8e03295e921dfc24e38df8f00aae",
+    "sanitized": false
+  },
+  {
+    "original_file": "开发与重建指南_V2.docx",
+    "repository_path": "manuals/开发与重建指南_V2.docx",
+    "bytes": 42111,
+    "original_sha256": "0982b3880871c49eef7c4ab1b15073b119391ad6c4b36d4d68fecbb1a738f45b",
+    "uploaded_sha256": "0982b3880871c49eef7c4ab1b15073b119391ad6c4b36d4d68fecbb1a738f45b",
+    "sanitized": false
+  },
+  {
+    "original_file": "开发与重建指南_V2.pdf",
+    "repository_path": "manuals/开发与重建指南_V2.pdf",
+    "bytes": 12625,
+    "original_sha256": "e299cc131ea65dccb596ec6ffc2e9ad6db9d1ba2c407388f8a0682a5963dd3b5",
+    "uploaded_sha256": "e299cc131ea65dccb596ec6ffc2e9ad6db9d1ba2c407388f8a0682a5963dd3b5",
+    "sanitized": false
+  },
+  {
+    "original_file": "教学路线图_V2.png",
+    "repository_path": "teaching/standalone/教学路线图_V2.png",
+    "bytes": 160085,
+    "original_sha256": "acc7f0e339c4ca6219c0c427cff7478647b9caab75ceb8120feb4be29c3ff306",
+    "uploaded_sha256": "acc7f0e339c4ca6219c0c427cff7478647b9caab75ceb8120feb4be29c3ff306",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师后台操作手册_V2.docx",
+    "repository_path": "manuals/教师后台操作手册_V2.docx",
+    "bytes": 41048,
+    "original_sha256": "13a3fcd136d7fb39395b30ee5b87e71675abacf0fa820ed651830e70109cdf50",
+    "uploaded_sha256": "13a3fcd136d7fb39395b30ee5b87e71675abacf0fa820ed651830e70109cdf50",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师后台操作手册_V2.pdf",
+    "repository_path": "manuals/教师后台操作手册_V2.pdf",
+    "bytes": 9101,
+    "original_sha256": "f5c06c9e3e80a836df5300465bc90d07b63ff57f08123364414a213e4a36df39",
+    "uploaded_sha256": "f5c06c9e3e80a836df5300465bc90d07b63ff57f08123364414a213e4a36df39",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师评价与参考答案_V2.docx",
+    "repository_path": "teaching/standalone/教师评价与参考答案_V2.docx",
+    "bytes": 47149,
+    "original_sha256": "b1d1e3bcb1e110a8669573c87cf3ed3222aaa8e81c3e0ee524cf3b8aeccd9b43",
+    "uploaded_sha256": "b1d1e3bcb1e110a8669573c87cf3ed3222aaa8e81c3e0ee524cf3b8aeccd9b43",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师评价与参考答案_V2.pdf",
+    "repository_path": "teaching/standalone/教师评价与参考答案_V2.pdf",
+    "bytes": 23699,
+    "original_sha256": "7ebe47ecb203f79fa63d2f25da1ea9fbda3c71985ffd45b8172bead755ec2d27",
+    "uploaded_sha256": "7ebe47ecb203f79fa63d2f25da1ea9fbda3c71985ffd45b8172bead755ec2d27",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师项目化教学指导手册_V2.docx",
+    "repository_path": "teaching/standalone/教师项目化教学指导手册_V2.docx",
+    "bytes": 208781,
+    "original_sha256": "b92f003bfb6307d998fe43ad5504b4b0739f779f817f430fe450dd5a717b3246",
+    "uploaded_sha256": "b92f003bfb6307d998fe43ad5504b4b0739f779f817f430fe450dd5a717b3246",
+    "sanitized": false
+  },
+  {
+    "original_file": "教师项目化教学指导手册_V2.pdf",
+    "repository_path": "teaching/standalone/教师项目化教学指导手册_V2.pdf",
+    "bytes": 207693,
+    "original_sha256": "04186b0a858b3a56a0509e300465cdc56ca130d1d942d2614d6af36f86fde53b",
+    "uploaded_sha256": "04186b0a858b3a56a0509e300465cdc56ca130d1d942d2614d6af36f86fde53b",
+    "sanitized": false
+  },
+  {
+    "original_file": "树莓派新手部署与维护_V2.docx",
+    "repository_path": "manuals/树莓派新手部署与维护_V2.docx",
+    "bytes": 48524,
+    "original_sha256": "c0debdc1c9c26ef57de9b6fbc46fa49de78a0a9f95f4e73846b61c83e92fdfa5",
+    "uploaded_sha256": "4b2e9e5cef5196abc2b99f0f0e58a3093264c2ebf759ff39d6269e4540255f49",
+    "sanitized": false
+  },
+  {
+    "original_file": "树莓派新手部署与维护_V2.pdf",
+    "repository_path": "manuals/树莓派新手部署与维护_V2.pdf",
+    "bytes": 28327,
+    "original_sha256": "c72509e4ed01ab1fa8a4177eff7fe2916298e5838ddb64df7e8cbca75f2ad573",
+    "uploaded_sha256": "f873ad42b52cc3a8dd6c248dbb56540b2c6a0f2d041b8056ff8de662f08cf330",
+    "sanitized": false
+  },
+  {
+    "original_file": "树莓派新手配置与维护手册_V1.1.docx",
+    "repository_path": "archive/v1.1/树莓派新手配置与维护手册_V1.1.docx",
+    "bytes": 46219,
+    "original_sha256": "76d2a5ca5337bc36bb72378d1751ad9320e4913de0044fa0238db75992549fdb",
+    "uploaded_sha256": "76d2a5ca5337bc36bb72378d1751ad9320e4913de0044fa0238db75992549fdb",
+    "sanitized": false
+  },
+  {
+    "original_file": "树莓派新手配置与维护手册_V1.1.pdf",
+    "repository_path": "archive/v1.1/树莓派新手配置与维护手册_V1.1.pdf",
+    "bytes": 24236,
+    "original_sha256": "5c55ff21ed63b35826c89d3609a4474fccf87c0b44e1611d63af781f36de9f34",
+    "uploaded_sha256": "5c55ff21ed63b35826c89d3609a4474fccf87c0b44e1611d63af781f36de9f34",
+    "sanitized": false
+  },
+  {
+    "original_file": "测试与交付说明_V2.docx",
+    "repository_path": "manuals/测试与交付说明_V2.docx",
+    "bytes": 40088,
+    "original_sha256": "ea613cd67f1ae6b553b2838fbc25ceca512a94da18c0af0819c8d794818416bc",
+    "uploaded_sha256": "ea613cd67f1ae6b553b2838fbc25ceca512a94da18c0af0819c8d794818416bc",
+    "sanitized": false
+  },
+  {
+    "original_file": "测试与交付说明_V2.pdf",
+    "repository_path": "manuals/测试与交付说明_V2.pdf",
+    "bytes": 7475,
+    "original_sha256": "98f93797e48992bdfd6591596091c040548eb119c4996d154f1313785c83cccc",
+    "uploaded_sha256": "98f93797e48992bdfd6591596091c040548eb119c4996d154f1313785c83cccc",
+    "sanitized": false
+  },
+  {
+    "original_file": "竞赛PPT_20页总览.png",
+    "repository_path": "archive/v1.0/竞赛PPT_20页总览.png",
+    "bytes": 485972,
+    "original_sha256": "3571cfed7b8076900a8ac4d921ef5bdc775b8076036ff837e7a14e8b8d372667",
+    "uploaded_sha256": "3571cfed7b8076900a8ac4d921ef5bdc775b8076036ff837e7a14e8b8d372667",
+    "sanitized": false
+  },
+  {
+    "original_file": "竞赛展示资料_SHA256.txt",
+    "repository_path": "archive/v1.0/original-checksums/竞赛展示资料_SHA256.txt",
+    "bytes": 739,
+    "original_sha256": "58083ae9d58cd19535968ac9b75b82d981102392c13fae4035933b904211fea6",
+    "uploaded_sha256": "58083ae9d58cd19535968ac9b75b82d981102392c13fae4035933b904211fea6",
+    "sanitized": false
+  },
+  {
+    "original_file": "竞赛展示资料_使用说明.txt",
+    "repository_path": "archive/v1.0/竞赛展示资料_使用说明.txt",
+    "bytes": 655,
+    "original_sha256": "c2942f385a100397bf9a2b39b69f28249f4a803dccdf58007e76e662b43816be",
+    "uploaded_sha256": "c2942f385a100397bf9a2b39b69f28249f4a803dccdf58007e76e662b43816be",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统任务需求书.md",
+    "repository_path": "archive/v1.0/系统任务需求书.md",
+    "bytes": 20607,
+    "original_sha256": "ec31ccd51e2a64af13ed87a571d3e4acbbb1a566bddce17a080b2fb27fae163e",
+    "uploaded_sha256": "ec31ccd51e2a64af13ed87a571d3e4acbbb1a566bddce17a080b2fb27fae163e",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统任务需求书_V1.0.docx",
+    "repository_path": "archive/v1.0/系统任务需求书_V1.0.docx",
+    "bytes": 47598,
+    "original_sha256": "1d2ef2cd0c3b100a36a0681e699488f329582adb250b901f9737df8c3f4cc830",
+    "uploaded_sha256": "1d2ef2cd0c3b100a36a0681e699488f329582adb250b901f9737df8c3f4cc830",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统任务需求书_V1.0.pdf",
+    "repository_path": "archive/v1.0/系统任务需求书_V1.0.pdf",
+    "bytes": 24491,
+    "original_sha256": "37a18adf3f3eec93573cab5772c51757c100552ef97339ce1a32a8524fba1c04",
+    "uploaded_sha256": "37a18adf3f3eec93573cab5772c51757c100552ef97339ce1a32a8524fba1c04",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统架构图_V2.mmd",
+    "repository_path": "manuals/系统架构图_V2.mmd",
+    "bytes": 868,
+    "original_sha256": "faa2836730f715dc09bc40ad80ff82530fc8d8d95e389908a1a6c02ecf7d2aac",
+    "uploaded_sha256": "faa2836730f715dc09bc40ad80ff82530fc8d8d95e389908a1a6c02ecf7d2aac",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统架构图_V2.pdf",
+    "repository_path": "manuals/系统架构图_V2.pdf",
+    "bytes": 1376093,
+    "original_sha256": "dc0ef656e4a42bcf4e18ef3df9048b0d50c4d9bed92a0f027d970483dbd558d2",
+    "uploaded_sha256": "dc0ef656e4a42bcf4e18ef3df9048b0d50c4d9bed92a0f027d970483dbd558d2",
+    "sanitized": false
+  },
+  {
+    "original_file": "系统架构图_V2.png",
+    "repository_path": "manuals/系统架构图_V2.png",
+    "bytes": 157292,
+    "original_sha256": "cc66871260c0cc75545bf02403774619104f82e4f6b4b94ac86ed920daa39bc0",
+    "uploaded_sha256": "cc66871260c0cc75545bf02403774619104f82e4f6b4b94ac86ed920daa39bc0",
+    "sanitized": false
+  },
+  {
+    "original_file": "网页预览_桌面.png",
+    "repository_path": "archive/v1.0/网页预览_桌面.png",
+    "bytes": 134289,
+    "original_sha256": "c3b253dbedced9c5ecd7bb31a3838c2eeb7ea9f3b641e66494f585a563799c86",
+    "uploaded_sha256": "c3b253dbedced9c5ecd7bb31a3838c2eeb7ea9f3b641e66494f585a563799c86",
+    "sanitized": false
+  },
+  {
+    "original_file": "课堂知识与操作速查卡_V2.docx",
+    "repository_path": "teaching/standalone/课堂知识与操作速查卡_V2.docx",
+    "bytes": 42310,
+    "original_sha256": "026461963701aca01dc86bbacd08ef609b725c4ba4d11614e92f38654fb373fe",
+    "uploaded_sha256": "026461963701aca01dc86bbacd08ef609b725c4ba4d11614e92f38654fb373fe",
+    "sanitized": false
+  },
+  {
+    "original_file": "课堂知识与操作速查卡_V2.pdf",
+    "repository_path": "teaching/standalone/课堂知识与操作速查卡_V2.pdf",
+    "bytes": 11040,
+    "original_sha256": "793471b236accad9fafaac2bb24cf35c2d3e8096491ca5ef9263a6c04a1ee8e1",
+    "uploaded_sha256": "793471b236accad9fafaac2bb24cf35c2d3e8096491ca5ef9263a6c04a1ee8e1",
+    "sanitized": false
+  },
+  {
+    "original_file": "通用基板设计说明_V1.1.docx",
+    "repository_path": "archive/v1.1/通用基板设计说明_V1.1.docx",
+    "bytes": 43165,
+    "original_sha256": "86a4b2946e5dadb1c74e2d6db6d9c5db30960db191ec0a02b598e95821a7736d",
+    "uploaded_sha256": "86a4b2946e5dadb1c74e2d6db6d9c5db30960db191ec0a02b598e95821a7736d",
+    "sanitized": false
+  },
+  {
+    "original_file": "通用基板设计说明_V1.1.pdf",
+    "repository_path": "archive/v1.1/通用基板设计说明_V1.1.pdf",
+    "bytes": 14770,
+    "original_sha256": "6bf721d1d6a55c73fc8de427c862f52ed49308f50dad2462eae2263a896c2ba3",
+    "uploaded_sha256": "6bf721d1d6a55c73fc8de427c862f52ed49308f50dad2462eae2263a896c2ba3",
+    "sanitized": false
+  },
+  {
+    "original_file": "需求与协议基线_V2.docx",
+    "repository_path": "manuals/需求与协议基线_V2.docx",
+    "bytes": 40940,
+    "original_sha256": "930822473bfaa936b3c71891420c969ee0630dde487d2b366d1090e301cc5ecc",
+    "uploaded_sha256": "930822473bfaa936b3c71891420c969ee0630dde487d2b366d1090e301cc5ecc",
+    "sanitized": false
+  },
+  {
+    "original_file": "需求与协议基线_V2.pdf",
+    "repository_path": "manuals/需求与协议基线_V2.pdf",
+    "bytes": 9247,
+    "original_sha256": "b268f588c9287f48d9a0e30110fb578099911e78455cbbdf5836b6ff45773124",
+    "uploaded_sha256": "b268f588c9287f48d9a0e30110fb578099911e78455cbbdf5836b6ff45773124",
+    "sanitized": false
+  },
+  {
+    "original_file": "项目压缩包_SHA256.txt",
+    "repository_path": "archive/v1.0/original-checksums/项目压缩包_SHA256.txt",
+    "bytes": 123,
+    "original_sha256": "9a245bf4fd4fd0def245e328149d09d27261006c46825a1838f27300d452407d",
+    "uploaded_sha256": "9a245bf4fd4fd0def245e328149d09d27261006c46825a1838f27300d452407d",
+    "sanitized": false
+  },
+  {
+    "original_file": "项目开发与交付手册_V1.0.docx",
+    "repository_path": "archive/v1.0/项目开发与交付手册_V1.0.docx",
+    "bytes": 2053645,
+    "original_sha256": "f15f70ca830589142b2c3fe5d83308a0117a1af3a92c84739c7405cd41e3325c",
+    "uploaded_sha256": "f15f70ca830589142b2c3fe5d83308a0117a1af3a92c84739c7405cd41e3325c",
+    "sanitized": false
+  },
+  {
+    "original_file": "项目开发与交付手册_V1.0.pdf",
+    "repository_path": "archive/v1.0/项目开发与交付手册_V1.0.pdf",
+    "bytes": 2909553,
+    "original_sha256": "def04e4b5da2f0a469906ae54f8f298992ddffd73e585b3acd6b6fe05fedfea7",
+    "uploaded_sha256": "def04e4b5da2f0a469906ae54f8f298992ddffd73e585b3acd6b6fe05fedfea7",
+    "sanitized": false
+  }
+]

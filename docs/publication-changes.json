@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "RoomGuard_ArduinoIDE_ESP32_ESP8266_V1.1.zip",
+    "removed": "RoomGuard_ArduinoIDE_V1.1/arduino/libraries/ESPAsyncTCP/ssl/server.key",
+    "reason": "exclude private-key/runtime-data file"
+  },
+  {
+    "archive": "RoomGuard_V1.1_FullProject.zip",
+    "removed": "building-monitor-v1.1/arduino/libraries/ESPAsyncTCP/ssl/server.key",
+    "reason": "exclude private-key/runtime-data file"
+  },
+  {
+    "archive": "RoomGuard_全部项目与竞赛资料_汇总包.zip!/02_Arduino_IDE工程与烧录/RoomGuard_ArduinoIDE_ESP32_ESP8266_V1.1.zip",
+    "removed": "RoomGuard_ArduinoIDE_V1.1/arduino/libraries/ESPAsyncTCP/ssl/server.key",
+    "reason": "exclude private-key/runtime-data file"
+  },
+  {
+    "archive": "RoomGuard_全部项目与竞赛资料_汇总包.zip!/01_V1.1完整项目与客户端/RoomGuard_V1.1_FullProject.zip",
+    "removed": "building-monitor-v1.1/arduino/libraries/ESPAsyncTCP/ssl/server.key",
+    "reason": "exclude private-key/runtime-data file"
+  },
+  {
+    "file": "system/roomguard-v2/docs/树莓派新手部署与维护_V2.*",
+    "reason": "Use corrected guide: initial install creates server MQTT account; per-node credentials are issued on approval."
+  }
+]

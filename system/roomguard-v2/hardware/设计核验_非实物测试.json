@@ -1,0 +1,23 @@
+{
+  "status": "REFERENCE_CALCULATION_ONLY_NOT_PHYSICAL_VALIDATION",
+  "supply_max_assumed_v": 5.25,
+  "resistor_tolerance": 0.01,
+  "ESP32_max_divider_voltage_v": 1.7734113712374582,
+  "ESP8266_max_divider_voltage_v": 0.8090479096734818,
+  "checks": {
+    "32_ADC_GPIO34": true,
+    "8266_ADC_A0": true,
+    "LDO_NOT_PARALLELED_WITH_ESP": true,
+    "MCP6002_A_NEGATIVE_FEEDBACK": true,
+    "LVC_OUTPUT_SMOKE": true,
+    "BUZZ_LOW_LEVEL_PRESERVED": true,
+    "pitch_confirmed": true
+  },
+  "limitations": [
+    "unknown_row_spacing",
+    "unverified_module_pin_order",
+    "unrouted_PCB",
+    "no_ERC_DRC_signoff",
+    "requires_power_sequence_and_backfeed_measurements"
+  ]
+}

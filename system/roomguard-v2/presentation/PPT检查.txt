@@ -1,0 +1,9 @@
+{
+  "ppt_pages": 24,
+  "pdf_pages": 24,
+  "main_pages": 20,
+  "hidden_backup_pages": 4,
+  "notes_all_present": true,
+  "fade_transitions": true,
+  "missing_rendered_text": []
+}
